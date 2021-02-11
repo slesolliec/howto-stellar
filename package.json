@@ -1,0 +1,21 @@
+{
+  "name": "stellar-blockchain-js-tutorials",
+  "version": "0.0.1",
+  "description": "How to use Stellar blockchain with JavaScript tutorials",
+  "main": "index.js",
+  "repository": "https://github.com/slesolliec/howto-stellar.git",
+  "author": "Stéphane Le Solliec",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "stellar-sdk": "^7.0.0"
+  }
+}
