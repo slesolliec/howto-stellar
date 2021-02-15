@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /stellar_logo.png
-heroText: How to Stellar
+heroText: how2Stellar.ooo
 tagline: Stellar blockchain JavaScript tutorials
 # actionText: Get Started →
 # actionLink: /guide/
@@ -11,7 +11,7 @@ features:
 - title: JavaScript rulez!
   details: Find here tutorials to quickly interact with the Stellar blockchain with JavaScript.
 - title: So much stuff ...
-  details: Already 3 amazing tutorials... well, I'm just starting the site actually... there will be more
+  details: Already 4 amazing tutorials... well, I'm just starting the site actually... there will be more
 footer: My left foot | Hope this helps ...
 pageClass: myhome-class
 ---
@@ -22,7 +22,15 @@ pageClass: myhome-class
   1. [How to create an account on the Stellar Network with JavaScript?](create-test-account.md)
   1. [How to check that an account exists on Stellar blockchain with JavaScript?](check-account-exists-on-stellar.md)
   1. [How to send XLM on Stellar blockchain with JavaScript?](send-xlm-with-javascript.md)
+  1. [How to list last incoming payments ?](listing-last-incoming-payments.md)
 
+## Advenced tutorials
+
+Everything you always wanted to know about Stellar network with Javascript* (*but were afraid to ask).
+
+## Building Smart Contracts
+
+Cannot wait to write that part ... stay tuned.
 
 ## Where to talk about Stellar?
 
