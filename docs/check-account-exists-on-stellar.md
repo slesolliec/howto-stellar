@@ -6,6 +6,8 @@ It's usually a good idea to do that kind of check before doing things with an ac
 
 <<< @/js/account-exist.js
 
+::: tip
 Remember that you don't need an account to exist before sending it Lumens. If you are sending
 more than the minimal balance (1 XLM) to an account that does not exist, sending these XLM will 
 create that account on the Stellar Blockchain.
+:::
