@@ -22,3 +22,4 @@ Here is the result:
 If you want more details, like how to put a complete transaction inside a link, go to [SEP-0007: URI Scheme to facilitate delegated signing](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0007.md).
 
 <Footer/>
+<Stellar-payments account="GD24ZNCKDYYKWDCHN77W6IZMYRCTBODLSJBQ4WJBIXVPYFJB66IGHOW2"/>

@@ -14,3 +14,4 @@ create that account on the Stellar Blockchain.
 
 
 <Footer/>
+<Stellar-payments account="GD24ZNCKDYYKWDCHN77W6IZMYRCTBODLSJBQ4WJBIXVPYFJB66IGHOW2"/>

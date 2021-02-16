@@ -33,3 +33,4 @@ So funding a new account with half a dozen Lumens is surely a good idea.
 :::
 
 <Footer/>
+<Stellar-payments account="GD24ZNCKDYYKWDCHN77W6IZMYRCTBODLSJBQ4WJBIXVPYFJB66IGHOW2"/>

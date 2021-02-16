@@ -13,3 +13,4 @@ I've just run that script on the Test net, and [here is the transaction](https:/
 (You won't be able to see that transaction after the Testnet next restarts.)
 
 <Footer/>
+<Stellar-payments account="GD24ZNCKDYYKWDCHN77W6IZMYRCTBODLSJBQ4WJBIXVPYFJB66IGHOW2"/>

@@ -11,13 +11,15 @@ features:
 - title: JavaScript rulez!
   details: Find here tutorials to quickly interact with the Stellar blockchain with JavaScript.
 - title: So much stuff ...
-  details: Already 4 amazing tutorials... well, I'm just starting the site actually... there will be more
+  details: Already many amazing tutorials... well, I'm just starting the site actually... there will be more
 
 pageClass: myhome-class
 ---
 
 
 ## Basic tutorials
+
+Simple elementary tasts for beginning to figure out how it all works.
 
   1. [How to create an account on the Stellar Network with JavaScript?](basic/create-test-account.md)
   1. [How to check that an account exists on Stellar blockchain with JavaScript?](basic/check-account-exists-on-stellar.md)
@@ -27,11 +29,16 @@ pageClass: myhome-class
 
 ## Intermediate tutorials
 
-For less basic stuff
+For less basic stuff. Level up.
+
+  1. [Vue component that displays list of last payments to a specific address on the Stellar Network](intermediate/stellar-payments-vue-component.md)
+
 
 ## Advanced tutorials
 
 Everything you always wanted to know about Stellar network with Javascript* (*but were afraid to ask).
+
+Later ...
 
 ## Building Smart Contracts
 
@@ -46,3 +53,4 @@ You have a question? Want to launch a topic about Stellar? Want to find people t
   * [GalacticTalk.org](https://galactictalk.org): online forum about Stellar
 
 <Footer/>
+<Stellar-payments account="GD24ZNCKDYYKWDCHN77W6IZMYRCTBODLSJBQ4WJBIXVPYFJB66IGHOW2"/>

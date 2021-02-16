@@ -15,3 +15,4 @@ So, here is the code. It's as simple as I can get it. It's as less sophisticated
 Of course you will probably want to put this in an HTML page instead of writing it to the console.
 
 <Footer/>
+<Stellar-payments account="GD24ZNCKDYYKWDCHN77W6IZMYRCTBODLSJBQ4WJBIXVPYFJB66IGHOW2"/>
