@@ -38,31 +38,25 @@ export default {
 		}
 	},
 
-	methods: {
-		getRows: async function () {
-			const response = await fetch(
-				'https://horizon.stellar.org/accounts/' + this.account + '/payments?' +
-    			    'include_failed=false' +  // no failed paiements
-			        '&join=transactions' +  // for the memos
-			        '&order=desc&limit=20'
-		    );
-    		const responseJSON = await response.json();
-    		this.rows = responseJSON['_embedded']['records']
-        		// we dont want outgoing payments
-        		.filter(p => !(p.type == 'payment' && p.from == this.account))
-        		// we don't want create_account payments we made to others
-        		.filter(p => !(p.type == 'create_account' && p.account != this.account));
-		}
+	async mounted() {
+		const response = await fetch(
+			'https://horizon.stellar.org/accounts/' + this.account + '/payments?' +
+				'include_failed=false' +  // no failed paiements
+				'&join=transactions' +  // for the memos
+				'&order=desc&limit=20'
+		);
+		const responseJSON = await response.json();
+		this.rows = responseJSON['_embedded']['records']
+			// we dont want outgoing payments
+			.filter(p => !(p.type == 'payment' && p.from == this.account))
+			// we don't want create_account payments we made to others
+			.filter(p => !(p.type == 'create_account' && p.account != this.account));
 	},
 
 	filters: {
 		shortAddress: function(addr) {
 			return addr.slice(0,8) + '......' + addr.slice(-8);
 		}
-	},
-
-	async mounted() {
-		this.getRows();
 	}
 }
 </script>
