@@ -7,7 +7,9 @@ This function needs two things:
   in your functions. You'll forget it's there and your code will break when you switch network.
   1. **the key pair of the sending account**. Of course, never ever publish your private S..... key on the web like I'm just doing. That account is now compromised. Anybody can use it as his.
 
-<<< @/js/send-lumen.js
+<<< @/js/basic/send-lumen.js
 
 I've just run that script on the Test net, and [here is the transaction](https://stellar.expert/explorer/testnet/tx/1b32a28a27e7be5c014067e1811ddecb0a8ea8a75031ef925dc29280846acf0b).
 (You won't be able to see that transaction after the Testnet next restarts.)
+
+<Footer/>

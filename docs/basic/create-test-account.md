@@ -17,7 +17,7 @@ As this is the Testnet, these 10 000 Lumens are worth nothing of course.
 
 Here is a basic JavaScript function that will create an account on the Stellar Test network:
 
-<<< @/js/create-test-account.js
+<<< @/js/basic/create-test-account.js
 
 
 If you are on the main network, then simply send at least 1 XLM to the address you want to create.
@@ -31,3 +31,5 @@ Also, adding a trustline to an account increases the minimal balance of that acc
 
 So funding a new account with half a dozen Lumens is surely a good idea.
 :::
+
+<Footer/>

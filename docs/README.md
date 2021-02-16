@@ -12,19 +12,24 @@ features:
   details: Find here tutorials to quickly interact with the Stellar blockchain with JavaScript.
 - title: So much stuff ...
   details: Already 4 amazing tutorials... well, I'm just starting the site actually... there will be more
-footer: My left foot | Hope this helps ...
+
 pageClass: myhome-class
 ---
 
 
 ## Basic tutorials
 
-  1. [How to create an account on the Stellar Network with JavaScript?](create-test-account.md)
-  1. [How to check that an account exists on Stellar blockchain with JavaScript?](check-account-exists-on-stellar.md)
-  1. [How to send XLM on Stellar blockchain with JavaScript?](send-xlm-with-javascript.md)
-  1. [How to list last incoming payments ?](listing-last-incoming-payments.md)
+  1. [How to create an account on the Stellar Network with JavaScript?](basic/create-test-account.md)
+  1. [How to check that an account exists on Stellar blockchain with JavaScript?](basic/check-account-exists-on-stellar.md)
+  1. [How to send XLM on Stellar blockchain with JavaScript?](basic/send-xlm-with-javascript.md)
+  1. [How to list last incoming payments ?](basic/listing-last-incoming-payments.md)
+  1. [How to create a Stellar payment link in HTML](basic/stellar-payment-link.md)
 
-## Advenced tutorials
+## Intermediate tutorials
+
+For less basic stuff
+
+## Advanced tutorials
 
 Everything you always wanted to know about Stellar network with Javascript* (*but were afraid to ask).
 
@@ -39,3 +44,5 @@ You have a question? Want to launch a topic about Stellar? Want to find people t
   * [stellar.public](https://keybase.io/team/stellar.public) team on KeyBase
   * [Stellar.StackExchange.com](https://stellar.stackexchange.com): main place to ask your technical questions
   * [GalacticTalk.org](https://galactictalk.org): online forum about Stellar
+
+<Footer/>

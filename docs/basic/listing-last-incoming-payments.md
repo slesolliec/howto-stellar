@@ -10,6 +10,8 @@ Yeah, thanks to the Horizon API, getting data from Stellar blockchain is as simp
 
 So, here is the code. It's as simple as I can get it. It's as less sophisticated as I can write it, because the goal of how2Stellar.ooo is to bring Stellar blockchain to any 15 year old high-school kid.
 
-<<< @/js/list-payments.js
+<<< @/js/basic/list-payments.js
 
 Of course you will probably want to put this in an HTML page instead of writing it to the console.
+
+<Footer/>
