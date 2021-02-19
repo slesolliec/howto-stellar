@@ -16,6 +16,9 @@ features:
 pageClass: myhome-class
 ---
 
+If you come accross some term that you don't understand, have a look at the [Dictionnary](dictionnary).
+
+This site is just beginning, all articles flagged WIP are Writing In Progress ...
 
 ## Basic tutorials
 
@@ -32,13 +35,20 @@ Simple elementary tasts for beginning to figure out how it all works.
 For less basic stuff. Level up.
 
   1. [Vue component that displays list of last payments to a specific address on the Stellar Network](intermediate/stellar-payments-vue-component.md)
+  1. [How to create tokens on Stellar](intermediate/create-tokens-on-Stellar) (WIP)
+  1. [How to create an ICO on the Stellar blockchain with JavaScript](intermediate/ICO-with-Stellar-and-JavaScript) (WIP)
+
 
 
 ## Advanced tutorials
 
 Everything you always wanted to know about Stellar network with Javascript* (*but were afraid to ask).
 
-Later ...
+  1. [How to implement NFTs (Non Fungible Tokens) with Stellar and JavaScript](advanced/NFT-Stellar-Non-Fungible-Token) (WIP)
+  1. [How to authenticate the users on your website with Stellar and JavaScript](advanced/web-login-with-Stellar) (WIP)
+
+
+
 
 ## Building Smart Contracts
 
